@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">quiz</string>
+    <string name="quiz_question">quiz question</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="welcome_to_quiz_world">Welcome to Quiz World!</string>
+    <string name="todo">TODO</string>
 </resources>

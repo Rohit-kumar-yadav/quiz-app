@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:text=" quiz question"
+        android:text="@string/quiz_question"
         android:textColor="#304FFE"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -31,7 +31,8 @@
         app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/quiz" />
+        app:srcCompat="@drawable/quiz"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/YES"
@@ -39,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="56dp"
-        android:text="YES"
+        android:text="@string/yes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/NO"
         app:layout_constraintHorizontal_bias="1.0"
@@ -52,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
-        android:text="NO"
+        android:text="@string/no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.77"
@@ -66,7 +67,8 @@
         android:layout_height="40dp"
         android:layout_marginTop="40dp"
         android:paddingStart="35dp"
-        android:text="Welcome to Quiz World!"
+        android:paddingEnd="0dp"
+        android:text="@string/welcome_to_quiz_world"
         android:textColor="#E41F5D"
         android:textSize="30sp"
         android:textStyle="bold|italic"

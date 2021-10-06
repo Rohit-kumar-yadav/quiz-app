@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (index <= Questions.length - 1) {
-                    if (answer[index] == true) {
+                    if (answer[index]) {
                         score++;
 
                     }
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (index <= Questions.length - 1) {
-                    if (answer[index] == false) {
+                    if (!answer[index]) {
                         score++;
 
                     }
